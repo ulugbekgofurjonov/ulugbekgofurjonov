@@ -18,7 +18,7 @@ Passionate about clean UI, performance and real-world projects.
 
 ### 🛠 Tech Stack
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,git,github" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,github" />
 </p>
 
 ---
