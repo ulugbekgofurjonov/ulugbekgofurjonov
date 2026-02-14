@@ -29,4 +29,4 @@ Passionate about clean UI, performance and real-world projects.
 ---
 
 ### 📫 Contact
-- Email: ulugbekgofurjonov@gmail.com
+- Email: ulugbekgofurjonov001@gmail.com
