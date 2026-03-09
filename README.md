@@ -1,120 +1,99 @@
-// Tech Stack component — react-icons ishlatgan holda
-// npm install react-icons
+<div align="center">
 
-import { 
-  FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaFigma 
-} from "react-icons/fa";
-import { 
-  SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss, 
-  SiSass, SiVite, SiVercel, SiRedux
-} from "react-icons/si";
-import { VscVscode } from "react-icons/vsc";
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ulugbek%20Gofurjonov&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Frontend%20Developer%20%7C%20React%20Specialist&descAlignY=51&descAlign=50" />
 
-const techs = [
-  { icon: <FaHtml5 />,        name: "HTML5",      color: "#E34F26" },
-  { icon: <FaCss3Alt />,      name: "CSS3",       color: "#1572B6" },
-  { icon: <SiJavascript />,   name: "JavaScript", color: "#F7DF1E" },
-  { icon: <SiTypescript />,   name: "TypeScript", color: "#3178C6" },
-  { icon: <FaReact />,        name: "React",      color: "#61DAFB" },
-  { icon: <SiNextdotjs />,    name: "Next.js",    color: "#ffffff" },
-  { icon: <SiRedux />,        name: "Redux",      color: "#764ABC" },
-  { icon: <SiTailwindcss />,  name: "Tailwind",   color: "#38BDF8" },
-  { icon: <SiSass />,         name: "Sass",       color: "#CC6699" },
-  { icon: <SiVite />,         name: "Vite",       color: "#646CFF" },
-  { icon: <FaGitAlt />,       name: "Git",        color: "#F05032" },
-  { icon: <FaGithub />,       name: "GitHub",     color: "#ffffff" },
-  { icon: <VscVscode />,      name: "VS Code",    color: "#007ACC" },
-  { icon: <FaFigma />,        name: "Figma",      color: "#F24E1E" },
-  { icon: <SiVercel />,       name: "Vercel",     color: "#ffffff" },
-];
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=I+build+modern+web+applications+%F0%9F%9A%80;React+%7C+JavaScript+%7C+Clean+UI+%E2%9C%A8;Open+for+freelance+opportunities+%F0%9F%92%BC" alt="Typing SVG" />
+</a>
 
-export default function TechStack() {
-  return (
-    <div style={{
-      background: "#0D1117",
-      minHeight: "100vh",
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      fontFamily: "'Fira Code', monospace",
-      padding: "40px 20px"
-    }}>
-      <h2 style={{ color: "#58A6FF", marginBottom: 8, fontSize: 22 }}>
-        🛠️ Tech Stack
-      </h2>
-      <p style={{ color: "#8B949E", marginBottom: 32, fontSize: 14 }}>
-        react-icons orqali chaqirilgan ikonalar
-      </p>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=ulugbekgofurjonov&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://img.shields.io/github/followers/ulugbekgofurjonov?label=Followers&style=social" />
+</p>
 
-      <div style={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: 16,
-        maxWidth: 640,
-        justifyContent: "center"
-      }}>
-        {techs.map(({ icon, name, color }) => (
-          <div
-            key={name}
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: 6,
-              background: "#161B22",
-              border: "1px solid #30363D",
-              borderRadius: 12,
-              padding: "14px 18px",
-              cursor: "default",
-              transition: "all 0.2s ease",
-              minWidth: 72,
-            }}
-            onMouseEnter={e => {
-              e.currentTarget.style.borderColor = color;
-              e.currentTarget.style.transform = "translateY(-4px)";
-              e.currentTarget.style.boxShadow = `0 8px 24px ${color}33`;
-            }}
-            onMouseLeave={e => {
-              e.currentTarget.style.borderColor = "#30363D";
-              e.currentTarget.style.transform = "translateY(0)";
-              e.currentTarget.style.boxShadow = "none";
-            }}
-          >
-            <span style={{ fontSize: 32, color, display: "flex" }}>
-              {icon}
-            </span>
-            <span style={{ color: "#8B949E", fontSize: 11, letterSpacing: 0.5 }}>
-              {name}
-            </span>
-          </div>
-        ))}
-      </div>
+</div>
 
-      <div style={{
-        marginTop: 48,
-        background: "#161B22",
-        border: "1px solid #30363D",
-        borderRadius: 12,
-        padding: "20px 28px",
-        maxWidth: 500,
-        width: "100%"
-      }}>
-        <p style={{ color: "#58A6FF", fontSize: 13, marginBottom: 12 }}>
-          📦 O'rnatish:
-        </p>
-        <code style={{ color: "#7EE787", fontSize: 13, display: "block" }}>
-          npm install react-icons
-        </code>
-        <p style={{ color: "#8B949E", fontSize: 12, marginTop: 12 }}>
-          📌 Import qilish:
-        </p>
-        <code style={{ color: "#FFA657", fontSize: 12, display: "block", lineHeight: 1.8 }}>
-          {`import { FaReact } from "react-icons/fa"`}<br/>
-          {`import { SiTailwindcss } from "react-icons/si"`}<br/>
-          {`import { VscVscode } from "react-icons/vsc"`}
-        </code>
-      </div>
-    </div>
-  );
-}
+---
+
+## 🚀 About Me
+
+```javascript
+const ulugbek = {
+  role:      "Frontend Developer",
+  location:  "Urgench, Uzbekistan 🇺🇿",
+  learning:  ["TypeScript", "Next.js", "Frontend Architecture"],
+  available: "Open for freelance & collaboration 💼",
+  portfolio: "https://ulugbek-gofurjonov.vercel.app",
+  contact:   "ulugbekgofurjonov001@gmail.com"
+};
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,redux,tailwind,sass,vite,git,github,figma,vscode,vercel&perline=8)](https://skillicons.dev)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ulugbekgofurjonov&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulugbekgofurjonov&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=ulugbekgofurjonov&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=ulugbekgofurjonov&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ulugbekgofurjonov&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🌐 Connect
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ulugbek-gofurjonov.vercel.app)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ulugbekgofurjonov001@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ulugbekgofurjonov)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ulugbekgofurjonov)
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+
+*"First, solve the problem. Then, write the code."*
+
+</div>
