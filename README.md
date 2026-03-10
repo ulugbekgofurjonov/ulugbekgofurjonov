@@ -68,7 +68,7 @@ const ulugbek: Developer = {
 
 <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ulugbekgofurjonov&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=888888&icon_color=ffffff&include_all_commits=true&count_private=true" height="150" alt="stats"/>
 &nbsp;
-<img src="https://streak-stats.demolab.com?user=ulugbekgofurjonov&hide_border=true&background=0d1117&stroke=ffffff08&ring=ffffff&fire=ffffff&currStreakLabel=888888&sideLabels=888888&dates=555555&currStreakNum=ffffff&sideNums=ffffff" height="150" alt="streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ulugbekgofurjonov&hide_border=true&background=0d1117&stroke=ffffff08&ring=ffffff&fire=ffffff&currStreakLabel=888888&sideLabels=888888&dates=555555&currStreakNum=ffffff&sideNums=ffffff" height="150" alt="streak"/>
 
 <br/><br/>
 
@@ -110,7 +110,7 @@ const ulugbek: Developer = {
 
 <div align="center">
 
-[![Follow](https://img.shields.io/badge/Follow%20%40ulugbekgofurjonov11--cpu-161b22?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/ulugbekgofurjonov)
+[![Follow](https://img.shields.io/badge/Follow%20%40ulugbekgofurjonov-161b22?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/ulugbekgofurjonov)
 
 <br/><br/>
 
