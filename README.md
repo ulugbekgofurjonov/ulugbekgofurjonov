@@ -62,25 +62,7 @@ const ulugbek: Developer = {
 
 <br/>
 
-<div align="center">
 
-<sub>F E A T U R E D &nbsp;&nbsp; P R O J E C T S</sub>
-
-</div>
-
-<br/>
-
-| 🚀 Project | 📝 Description | 🛠️ Stack | 🔗 |
-|:---|:---|:---|:---:|
-| **Portfolio** | Personal portfolio website | React, Next.js, Tailwind | [Live](https://ulugbek-gofurjonov.vercel.app) |
-| **Project 2** | Add your project description | React, Tailwind | [Repo](#) |
-| **Project 3** | Add your project description | Next.js, CSS | [Repo](#) |
-
-<br/>
-
----
-
-<br/>
 
 <div align="center">
 
