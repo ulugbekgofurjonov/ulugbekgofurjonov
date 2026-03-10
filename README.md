@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3000&pause=1000&color=666666&center=true&vCenter=true&width=700&lines=React+%26+Next.js+%E2%80%94+Uzbekistan+%F0%9F%87%BA%F0%9F%87%BF+%E2%80%94+Open+for+Freelance+%F0%9F%92%BC;Building+clean+%26+scalable+web+experiences+%E2%9C%A8" alt="subtitle"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3000&pause=1000&color=666666&center=true&vCenter=true&width=700&lines=React+%26+Next.js+%E2%80%94+Uzbekistan+%F0%9F%87%BA%F0%9F%87%BF+%E2%80%94+Open+for+Work+%F0%9F%92%BC;Building+clean+%26+scalable+web+experiences+%E2%9C%A8" alt="subtitle"/>
 
 <br/>
 
@@ -30,9 +30,11 @@
 const ulugbek: Developer = {
   name      : "Ulugbek Gofurjonov",
   role      : "Frontend Developer",
-  location  : "Uzbekistan 🇺🇿",
+  location  : "Uzbekistan",
   stack     : ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind"],
   focus     : "Clean UI  ·  Performance  ·  Scalable Code",
+  experience: "Building real-world web apps with modern tech",
+  goal      : "Writing clean code that solves real problems 🎯",
   freelance :  true,   // open for opportunities 💼
   portfolio : "ulugbek-gofurjonov.vercel.app",
 };
@@ -53,6 +55,26 @@ const ulugbek: Developer = {
 <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,github,vercel&theme=dark&perline=8" alt="skills"/>
 
 </div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+<sub>F E A T U R E D &nbsp;&nbsp; P R O J E C T S</sub>
+
+</div>
+
+<br/>
+
+| 🚀 Project | 📝 Description | 🛠️ Stack | 🔗 |
+|:---|:---|:---|:---:|
+| **Portfolio** | Personal portfolio website | React, Next.js, Tailwind | [Live](https://ulugbek-gofurjonov.vercel.app) |
+| **Project 2** | Add your project description | React, Tailwind | [Repo](#) |
+| **Project 3** | Add your project description | Next.js, CSS | [Repo](#) |
 
 <br/>
 
